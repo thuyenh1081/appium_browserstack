@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+<!--    <đang chạy parallel từng test case, trong TH này thì trong file base test thfi dùng bẻoemethod và-->
+<!--    after method thay vì beforeClass và afterClass)-->
+    <test name="Google_Pixel_3">
+        <parameter name="deviceID" value="1"/>
+        <classes>
+            <class name="com.qa.tests.LoginTests"/>
+            <!--<class name="com.qa.tests.ProductTests"/>-->
+        </classes>
+    </test>
+<!--    <test name="iPhone_XS">&ndash;&gt;-->
+<!--        <parameter name="deviceID" value="2"/>-->
+<!--        <classes>-->
+<!--            <class name="com.qa.tests.LoginTests"/>-->
+<!--            &lt;!&ndash;<class name="com.qa.tests.ProductTests"/>&ndash;&gt;-->
+<!--        </classes>-->
+<!--    </test>&ndash;&gt;-->
+</suite>
